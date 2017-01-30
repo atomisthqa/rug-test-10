@@ -1,0 +1,17 @@
+---
+kind: "operation"
+client: "atomist 1.2"
+generator:
+  name: "NewHandlersProject"
+  group: "atomist"
+  artifact: "handlers"
+  version: "0.5.0"
+  origin:
+    repo: "git@github.com:atomist/handlers.git"
+    branch: "master"
+    sha: "c5e6729*"
+  parameters:
+    - "project_name": "rug-test-10"
+    - "group_id": "mygroup"
+    - "version": "0.1.0"
+
